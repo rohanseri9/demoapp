@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+class student{
+    constructor(valueone,valuetwo,valuethree){
+        this.id=valueone;
+        this.name=valuetwo;
+        this .marks=valuethree;
+    }
+    show(){
+        console.log(this.id+":"+this.name);
+    }
+    //setter and getter methods
+    setid(value){
+        this.id=value;
+        }
+        getname(){
+            return this.id;
+        }
+        setid(value){
+            this.id=value;  
+        }
+        getname(){
+                return this.name;
+        }
+    }
+    
+let studentone=new student(101,'rohan',95 );
+let studenttwo=new student(102,'shaker',99);
+console.log(studentone)
+console.log(studenttwo)
+</script>
+</body>
+</html>
